@@ -1,8 +1,111 @@
-section{
-    background-image: url(laddaned.jpg);
-    
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
     
 }
+
+h1{
+    
+   
+    margin-bottom: 30px;
+    color: green;
+}
+h2{
+    
+   
+    margin-bottom: 15px;
+}
+
+
+
+.articlestyl{
+    
+   width: 1140px;
+   margin-left: auto;
+    margin-right: auto;
+   
+}
+.clearfix:after{
+content: "";
+display: table;
+clear: both;
+}
+.newstyle{
+    display: block;
+  
+    width: 65%;
+    float: left;
+   
+}
+.style2{
+    display: block;
+    
+    width:25%;
+    float: left;
+    padding: 30px;
+}
+footer{
+    float: right;
+    margin-top: 30%
+    
+}
+.menustyle{
+   
+    
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  margin-bottom: 10px;
+  font-size: 20px;
+    color: white;
+    border-right: 1px solid #bbb;
+}
+.menustyle1{
+   
+    display: inline;
+    padding: 8px;
+    
+}
+a{
+    
+    color: white;
+}
 body{
-    background-image: url(backgrund.jpg) 
+    background-image: url(henry-co-1388031-unsplash.jpg);
+    background-size: 100% 100%;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textdiv{
+    margin-left: 10px;
+    display: block;
+  
+    width: 40%;
+    float: left;
+    
+}
+.texth2{
+    
+    margin-left: 200px;
+}
+img{
+    float: left;
+    width: 40%;
+}
+.textblod{
+   color: blue;
+}
+ul{
+    color: green
+}
+ol{
+    color: red;
+}
+.pagestyle{
+    
+    border: none;
+    
 }
