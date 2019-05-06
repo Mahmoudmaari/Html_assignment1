@@ -16,6 +16,9 @@ h2{
    
     margin-bottom: 15px;
 }
+article{
+    text-align: justify;
+}
 
 
 
@@ -39,8 +42,9 @@ clear: both;
    
 }
 .style2{
+    background-color: grey;
     display: block;
-    
+   
     width:25%;
     float: left;
     padding: 30px;
@@ -88,7 +92,7 @@ body{
     
 }
 .texth2{
-    
+    color: green;
     margin-left: 200px;
 }
 img{
@@ -108,4 +112,11 @@ ol{
     
     border: none;
     
+}
+
+.boldtext{
+    font-weight: bold;
+}
+.red{
+    color: red;
 }
